@@ -1,20 +1,21 @@
-<div class="container-fluid justify-content-center">
+<div class="social-icons d-flex justify-content-center mt-3">
+  <!-- Resume -->
+  <a href="/assets/resume.pdf" class="social-btn" target="_blank" title="Resume">
+    <i class="fa-solid fa-file-lines"></i>
+  </a>
 
-  {%- assign unfocused_color = "6c757d" -%}
+  <!-- Email -->
+  <a href="mailto:victoriaproko333@gmail.com" class="social-btn" title="Email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
 
-  {% for account in site.author %}
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/victoria-proko/" class="social-btn" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
 
-    {%- assign service_name = account[0] -%}
-    {%- assign service_data = site.data.social-media[service_name] -%}
-    {%- if service_data -%}    
-    <a class="social mx-1"  href="{{ service_data.url }}{{ account[1] }}"
-       style="color: #{{ unfocused_color }}"
-       onMouseOver="this.style.color='#{{ service_data.color }}'"
-       onMouseOut="this.style.color='#{{ unfocused_color }}'">
-      <i class="{{ service_data.icon }} fa-1x"></i>
-    </a>
-    {%- endif -%}
-  
-  {% endfor %}
-
+  <!-- GitHub -->
+  <a href="https://github.com/victoriaproko" class="social-btn" target="_blank" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
 </div>
