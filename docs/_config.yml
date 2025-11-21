@@ -1,110 +1,151 @@
+title: "Victoria (Vika) Prokopenko"
+description: "Engineering intuitive products grounded in how people think."
+email: "victoriaproko333@gmail.com"
+
+github_username: victoriaproko
+linkedin_username: victoria-proko
+
+# Navbar
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Experience"
+    url: /experience/
+  - title: "Blog"
+    url: /blog/
+  - title: "Resume"
+    url: /assets/resume.pdf
+
+# Hero section
+landing:
+  title: "Victoria (Vika) Prokopenko"
+  tagline: "Engineering intuitive products grounded in how people think."
+  description: >
+    I’m a Cognitive Science & Computer Science student focused on building
+    human-centered products — intuitive tools grounded in how people think,
+    create, and solve problems.
+  button_one_label: "Resume"
+  button_one_url: "/assets/resume.pdf"
+  button_two_label: "Projects"
+  button_two_url: "/projects/"
+  image: "/assets/headshot2.jpg"  # path confirmed ✔
+
+# Enable social icons
+show_social_icons: true
+
+
+# --------DEFAULT TEMPLATE CODE BELOW --------------
 ### Site Settings ###
-title               : portfolYOU
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+# title               : portfolYOU
+# description         : >-
+#                       I turn coffee :coffee: into code,
+#                       use tabs over spaces
+#                       and never broke production.
+# baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+# repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+# remote_theme        : yousinix/portfolYOU
+# open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
-### Plugins ###
-plugins:
-  - jemoji
+# ### Plugins ###
+# plugins:
+#   - jemoji
 
 
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+# ### Navbar Settings ###
+# nav_exclude:                                            # The following paths are excluded from navbar
+#   - pages/tags.html
+#   - pages/404.html
+#   - pages/index.md
+#   - documentation/partials/**                           # For Documentation Only
 
 
-### Author Info ###
-author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
+# ### Author Info ###
+# author:
+#   name              : John Doe
+#   image             : https://i.imgur.com/uyDNQnn.jpg
+#   behance           : your_username
+# # dribbble          : your_username
+#   email             : username@domain.com
+#   facebook          : your_username
+#   github            : your_username
+# # gitlab            : your_username
+# # instagram         : your_username
+# # kaggle            : your_username
+#   linkedin          : your_username
+#   medium            : your_username
+# # soundcloud        : your_username
+# # spotify           : your_username
+# # stackoverflow     : your_user_id
+# # tumblr            : your_username.tumblr.com
+# # twitch            : your_username
+#   twitter           : your_username
+# # vimeo             : your_username
+# # youtube           : your_channel_name
+# # keybase           : your_username
 
 
-### Posts ###
-permalink: /blog/:title
+# ### Posts ###
+# permalink: /blog/:title
 
 
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+# ### Collections ###
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:name
+#   elements:                                             # For Documentation Only
+#     output: true                                        # For Documentation Only
 
 
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+# ### Disqus ###
+# disqus:
+#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
+# ### Analytics ###
+# analytics:
+#   enabled: false                                        # Set true to enable analytics
+#   google:
+#     tracking_id: your-google-tracking-id
 
 
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
+# ### Buy me a coffee ###
+# # See https://www.buymeacoffee.com/
+# buymeacoffee:
+#   enabled: false
+#   username: your_username
+#   color: "#007bff"
+#   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+#   description: "Support me on Buy me a coffee!"
 
 
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+# ### Defaults for collections ###
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "projects"
+#     values:
+#       layout: "page"
+#   - scope:                                              # For Documentation Only
+#       path: ""                                          # For Documentation Only
+#       type: "elements"                                  # For Documentation Only
+#     values:                                             # For Documentation Only
+#       layout: "element"                                 # For Documentation Only
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       comments: false                                   # Set to true to enable disqus comments
 
 
-### Exclude from processing ###
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+# ### Exclude from processing ###
+# exclude:
+#   - README.md
+#   - CONTRIBUTING.md
+#   - LICENSE
+#   - "*.log"
