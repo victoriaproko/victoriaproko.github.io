@@ -1,3 +1,6 @@
+exclude:
+  - docs
+
 title: "Victoria (Vika) Prokopenko"
 description: "Engineering intuitive products grounded in how people think."
 email: "victoriaproko333@gmail.com"
