@@ -16,8 +16,10 @@
     {% include navbar.html %}
     {{ content }}
   </main>
-  {% include footer.html %}
 
+  {% unless page.hide-footer %}
+    {% include footer.html %}
+  {% endunless %}
   {% include analytics.html %}
   {% include scripts.html %}
 
