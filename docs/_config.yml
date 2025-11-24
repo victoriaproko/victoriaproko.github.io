@@ -23,6 +23,12 @@ nav:
   - title: "Resume"
     url: /assets/resume.pdf
 
+# Pages to exclude from auto navbar
+nav_exclude:
+  - "pages/experience/*.md"
+  - "pages/experience/*.html"
+    
+
 # Hero section
 landing:
   title: "Victoria (Vika) Prokopenko"
