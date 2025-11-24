@@ -1,4 +1,4 @@
-title: "Victoria (Vika) Prokopenko"
+title: "Victoria Prokopenko"
 description: "Engineering intuitive products grounded in how people think."
 email: "victoriaproko333@gmail.com"
 
@@ -17,8 +17,8 @@ nav:
     url: /experience/
   - title: "Blog"
     url: /blog/
-  - title: "Resume"
-    url: /assets/resume.pdf
+  # - title: "Resume"
+  #   url: /assets/resume.pdf
 
 # Hero section
 landing:
