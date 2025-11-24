@@ -1,31 +1,24 @@
-
-
+title: "Victoria (Vika) Prokopenko"
+description: "Engineering intuitive products grounded in how people think."
 email: "victoriaproko333@gmail.com"
+
 github_username: victoriaproko
 linkedin_username: victoria-proko
 
-# Site settings
-title: "Vika Prokopenko"
-description: "Computer Science & Cognitive Science Student | Human-Centered Technology"
-
 # Navbar
 nav:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
-  - title: "Experience"
-    url: /experience/
   - title: "Projects"
     url: /projects/
+  - title: "Experience"
+    url: /experience/
   - title: "Blog"
     url: /blog/
   - title: "Resume"
     url: /assets/resume.pdf
-    
-# Pages to exclude from auto navbar
-nav_exclude:
-  - "pages/experience/*.md"
-  - "pages/experience/*.html"
-    
 
 # Hero section
 landing:
@@ -151,8 +144,8 @@ show_social_icons: true
 
 
 # ### Exclude from processing ###
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+# exclude:
+#   - README.md
+#   - CONTRIBUTING.md
+#   - LICENSE
+#   - "*.log"
