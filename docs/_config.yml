@@ -1,5 +1,4 @@
-exclude:
-  - docs
+
 
 email: "victoriaproko333@gmail.com"
 github_username: victoriaproko
@@ -152,8 +151,8 @@ show_social_icons: true
 
 
 # ### Exclude from processing ###
-# exclude:
-#   - README.md
-#   - CONTRIBUTING.md
-#   - LICENSE
-#   - "*.log"
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
