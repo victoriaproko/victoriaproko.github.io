@@ -1,7 +1,7 @@
 ---
 layout: project-card
-title: "Portfolio Redesign"
-short_description: "Embodied Musical Development in XR with Apple Vision Pro"
+title: "Embodied Musical Development in XR with Apple Vision Pro"
+short_description: "Collaborated to design and prototype an XR application for the Apple Vision Pro"
 image: 
 permalink: /projects/avp-livecoding/
 ---
