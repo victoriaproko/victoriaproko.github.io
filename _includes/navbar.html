@@ -1,27 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-themed">
-
   <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
-
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-
       {% for item in site.nav %}
-        {%- assign url = item.url | relative_url -%}
-        {%- if page.url contains item.url -%}
-          {%- assign active_status = "active" -%}
-        {%- else -%}
-          {%- assign active_status = "" -%}
-        {%- endif -%}
-        <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ item.title }}</a>
+        {% assign active_status = "" %}
+        {% if page.url == item.url %}
+          {% assign active_status = "active" %}
+        {% endif %}
+        <a class="nav-item nav-link {{ active_status }}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endfor %}
-
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
-
     </div>
   </div>
-
 </nav>
