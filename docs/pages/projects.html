@@ -2,10 +2,27 @@
 layout: page
 title: Projects
 permalink: /projects/
-weight: 3
-remote_projects: 
-  - git-for-wizards
-  - arduino-visitor-counter
 ---
 
-{% include projects/index.html %}
+<section class="project-cards container">
+  {%- assign all_projects = site.pages | where_exp: "p", "p.path contains 'docs/pages/projects/'" -%}
+  <div class="row">
+    {%- for project in all_projects -%}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <a href="{{ project.url | relative_url }}">
+            {% if project.image %}
+              <img src="{{ project.image | relative_url }}" class="card-img-top" alt="{{ project.title }}">
+            {% endif %}
+            <div class="card-body">
+              <h3 class="card-title">{{ project.title }}</h3>
+              {% if project.short_description %}
+                <p class="card-text">{{ project.short_description }}</p>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
