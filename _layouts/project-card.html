@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<div class="project-card container">
+  <a href="{{ page.url | relative_url }}">
+    {% if page.image %}
+      <img src="{{ page.image | relative_url }}" class="card-img-top" alt="{{ page.title }}">
+    {% endif %}
+    <div class="card-body">
+      <h3 class="card-title">{{ page.title }}</h3>
+      {% if page.short_description %}
+        <p class="card-text">{{ page.short_description }}</p>
+      {% endif %}
+    </div>
+  </a>
+</div>
