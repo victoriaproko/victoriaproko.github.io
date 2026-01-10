@@ -52,8 +52,29 @@ Our project is informed by several key areas of research in HCI.
 
   We recognize the ways XR introduces spatial, gestural, and multisensory feedback channels that shape how users experience their body in immersive spaces.
   
+
 ### Ideation & Storyboarding
-How ideas formed, sketches, decisions.
+How ideas formed, sketches, decisions:
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px;">
+  
+  <div style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/sketch1 2.png" alt="Sketch 1" style="width: 100%; display: block;">
+  </div>
+
+  <div style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/sketch2 2.png" alt="Sketch 2" style="width: 100%; display: block;">
+  </div>
+
+  <div style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/sketch3 2.png" alt="Sketch 3" style="width: 100%; display: block;">
+  </div>
+
+  <div style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/sketch4 2.png" alt="Sketch 4" style="width: 100%; display: block;">
+  </div>
+
+</div>
 
 ### Technical Scaffolding
 
