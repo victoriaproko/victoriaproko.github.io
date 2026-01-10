@@ -41,7 +41,9 @@ weight: 1
 </p>
 
 <p style="font-size: 1em;">
-  I became a research assistant and teaching assistant in the Computer Science department, and a mentor through Pomona’s First-Generation Low Income program— all roles that allowed me to give back by supporting students who share backgrounds similar to mine. Helping others reach milestones they once thought were out of reach has now become one of the most meaningful parts of my college experience.  
+  I became 
+  <a href="https://www.pomona.edu/academics/departments/computer-science/why-i-majored" target="_blank" style="color: #007bff; text-decoration: underline;">a research assistant and teaching assistant in the Computer Science department</a>, 
+  and a mentor through Pomona’s First-Generation Low Income program— all roles that allowed me to give back by supporting students who share backgrounds similar to mine.
 </p>
 
 
