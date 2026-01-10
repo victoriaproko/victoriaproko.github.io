@@ -3,8 +3,8 @@ layout: project-page
 title: "Embodied-Algorave"
 short_description: "Designing & prototyping an XR creative tool for Embodied Musical Development for Apple Vision Pro."
 role: "UX Researcher · Interaction Designer · Developer"
-tools: "Reality Composer Pro, Swift, xrOS, Figma"
-timeline: "Fall 2024 — Spring 2025"
+tools: "Swift, Strudel, RealityKit"
+timeline: "Fall 2025 — Ongoing"
 image: 
 permalink: /projects/avp-livecoding/
 ---
