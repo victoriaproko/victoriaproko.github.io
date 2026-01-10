@@ -10,7 +10,7 @@ weight: 1
 <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
 
   <div style="flex: 1; min-width: 250px; max-width: 300px;">
-    <img src="/assets/images/headshot5.jpg" alt="Victoria Prokopenko" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/headshot5.jpg" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
 
   <div style="flex: 2; min-width: 300px;">
