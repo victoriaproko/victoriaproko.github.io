@@ -30,18 +30,19 @@ We have developed a prototype demonstrating live integration between Strudel (fo
 
 ### Research
 Our project is informed by several key areas of research in HCI.
+
 <u>Design Probe</u>
 
   We reference the HCI frameworks on design probes, which are objects intentionally designed to invite participant reflection, as both tools for design and tools for exploration. Particularly, we consider our design from four key properties:
   
-**Thematic openness vs boundedness:** giving enough freedom to explore, but enough constraint to direct attention and make the task completable
-**Materiality:** the physical qualities of the probe (form, materials, affordances) that scaffold reflection
-**Pace:** how quickly or slowly participants engage with it
-**Challenge:** the degree of difficulty or provocation in the probe
+  * **Thematic openness vs boundedness:** giving enough freedom to explore, but enough constraint to direct attention and make the task completable
+  * **Materiality:** the physical qualities of the probe (form, materials, affordances) that scaffold reflection
+  * **Pace:** how quickly or slowly participants engage with it
+  * **Challenge:** the degree of difficulty or provocation in the probe
 
 <u>Cognitive load theory</u>
 
-  We distinguish between **intrinsic load** (the inherent complexity of musical structures and pattern relationships) and **extraneous load**(unnecessary mental effort introduced by interface or representation). The framework of effective cognitive load provides a lens for evaluating how XR may redistribute cognitive effort, informing design on complexity.
+  We distinguish between **intrinsic load** (the inherent complexity of musical structures and pattern relationships) and **extraneous load** (unnecessary mental effort introduced by interface or representation). The framework of effective cognitive load provides a lens for evaluating how XR may redistribute cognitive effort, informing design on complexity.
   
 <u>Live coding movement</u>
 
@@ -49,9 +50,8 @@ Our project is informed by several key areas of research in HCI.
 
 <u>Embodied interaction</u>
 
-We recognize the ways XR introduces spatial, gestural, and multisensory feedback channels that shape how users experience their body in immersive spaces 
-
-
+  We recognize the ways XR introduces spatial, gestural, and multisensory feedback channels that shape how users experience their body in immersive spaces.
+  
 ### Ideation & Storyboarding
 How ideas formed, sketches, decisions.
 
