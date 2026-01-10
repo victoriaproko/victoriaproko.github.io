@@ -33,5 +33,7 @@ weight: 1
 
 <h2 style="font-size: 1.8em; font-weight: bold;">My passions for giving back:</h2>
 <p style="font-size: 1em;">
-  I was raised by a single immigrant mother who instilled in me a deep belief in the power of higher education... [rest of your text]
+    I was raised by a single immigrant mother who instilled in me a deep belief in the power of higher education. As someone who didn’t have access to higher education, she emphasized its power to open doors to worlds of opportunity she could only dream of. So for me, getting into college was the fulfillment of this family mission proposed by my mother, but the personal accomplishment I’m even more proud of is what came after: finally having access to academic and institutional resources for the first time allowed me to grow and give back in ways I never could before. I became a research assistant and teaching assistant in the Computer Science department, and a mentor through Pomona’s First-Generation Low Income program— all roles that allowed me to give back by supporting students who share backgrounds similar to mine. Helping others reach milestones they once thought were out of reach has become one of the most meaningful parts of my college experience, 
 </p>
+
+
