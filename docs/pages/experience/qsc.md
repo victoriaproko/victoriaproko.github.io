@@ -2,7 +2,6 @@
 title: "Office Assistant, Quantitative Skills Center"
 permalink: /pages/experience/qsc/
 date: 2024-08-01
-image: "/assets/qsc.png"
 layout: "projects-card"
 ---
 
