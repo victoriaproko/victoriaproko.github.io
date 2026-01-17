@@ -12,53 +12,53 @@ permalink: /experience/
     padding: 0 20px;
   }
 
-  /* Vertical Line */
+  /* Thicker Vertical Line */
   .timeline-container::after {
     content: '';
     position: absolute;
-    width: 2px;
+    width: 4px; /* Increased thickness */
     background-color: #007bff;
     top: 0;
     bottom: 0;
     left: 40px;
-    margin-left: -1px;
+    margin-left: -2px;
   }
 
   .timeline-item {
     position: relative;
-    margin-bottom: 50px;
-    padding-left: 80px;
+    margin-bottom: 60px;
+    padding-left: 90px; /* Adjusted for larger dots */
     text-align: left;
   }
 
-  /* Timeline Dot/Node */
+  /* Larger Timeline Dot with Thicker Border */
   .timeline-dot {
     position: absolute;
-    left: 20px;
-    width: 42px;
-    height: 42px;
+    left: 10px; /* Adjusted centering */
+    width: 60px; /* Increased size */
+    height: 60px; /* Increased size */
     background-color: #fff;
-    border: 2px solid #007bff;
+    border: 3px solid #007bff; /* Thicker border */
     border-radius: 50%;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
 
   .timeline-dot img {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
   }
 
-  /* Clickable Content Box */
   .timeline-link {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 15px 20px;
+    padding: 20px;
     background: #fff;
     border-radius: 12px;
     border: 1px solid transparent;
@@ -68,89 +68,89 @@ permalink: /experience/
   .timeline-link:hover {
     background: #f8f9fa;
     border-color: #e1e4e8;
-    transform: translateX(5px);
+    transform: translateX(8px);
   }
 
   .timeline-title {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 600;
     color: #24292e;
   }
 
   .timeline-subtitle {
-    font-size: 1em;
+    font-size: 1.05em;
     color: #007bff;
     font-weight: 500;
     margin: 4px 0;
   }
 
   .timeline-date {
-    font-size: 0.85em;
+    font-size: 0.9em;
     color: #6a737d;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-style: italic;
   }
 
   .timeline-list {
     margin: 0;
     padding-left: 18px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: #586069;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 </style>
 
 <div class="timeline-container">
 
   <div class="timeline-item">
-    <div class="timeline-dot"><img src="/assets/pomona-logo.png"></div>
-    <a href="/experience/hci-lab" class="timeline-link">
+    <div class="timeline-dot"><img src="/assets/hci_lab.png"></div>
+    <a href="/experience/hci-lab/" class="timeline-link">
       <h3 class="timeline-title">Research Assistant, HCI Lab</h3>
-      <div class="timeline-subtitle">Pomona College Computer Science Dept [cite: 13, 14]</div>
-      <div class="timeline-date">August 2025 – Present [cite: 16]</div>
+      <div class="timeline-subtitle">Pomona College Computer Science Dept</div>
+      <div class="timeline-date">August 2025 – Present</div>
       <ul class="timeline-list">
-        <li>Designed interactive prototypes (web/mobile/XR) and contributed to research reports[cite: 17].</li>
-        <li>Conducted literature reviews of 30+ papers and supported 3+ user studies[cite: 18].</li>
+        [cite_start]<li>Designed interactive prototypes (web/mobile/XR) and contributed to research reports[cite: 17].</li>
+        [cite_start]<li>Conducted literature reviews of 30+ papers and supported 3+ user studies[cite: 18].</li>
       </ul>
     </a>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"><img src="/assets/pomona-logo.png"></div>
-    <a href="/experience/cs-ta" class="timeline-link">
+    <div class="timeline-dot"><img src="/assets/cs_ta.jpg"></div>
+    <a href="/experience/cs-ta/" class="timeline-link">
       <h3 class="timeline-title">Teaching Assistant, Intro to CS</h3>
-      <div class="timeline-subtitle">Pomona College Computer Science Dept [cite: 13, 19]</div>
-      <div class="timeline-date">August 2025 – Present [cite: 20, 21]</div>
+      <div class="timeline-subtitle">Pomona College Computer Science Dept</div>
+      <div class="timeline-date">August 2025 – Present</div>
       <ul class="timeline-list">
-        <li>Supporting 60+ students covering algorithms, machine learning, and Python programming[cite: 22].</li>
-        <li>Leading labs, debugging code, and grading 100+ assignments[cite: 23].</li>
+        [cite_start]<li>Supporting 60+ students covering algorithms, machine learning, and Python programming[cite: 22].</li>
+        [cite_start]<li>Leading labs, debugging code, and grading 100+ assignments[cite: 23].</li>
       </ul>
     </a>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"><img src="/assets/coding-kids-logo.png"></div>
-    <a href="/experience/coding-kids" class="timeline-link">
+    <div class="timeline-dot"><img src="/assets/coding_kids.png"></div>
+    <a href="/experience/coding-kids/" class="timeline-link">
       <h3 class="timeline-title">K-12 Coding Instructor</h3>
-      <div class="timeline-subtitle">Coding with Kids [cite: 24]</div>
-      <div class="timeline-date">May 2025 – August 2025 [cite: 25]</div>
+      <div class="timeline-subtitle">Coding with Kids</div>
+      <div class="timeline-date">May 2025 – August 2025</div>
       <ul class="timeline-list">
-        <li>Instructed 60+ students in game development using Scratch, Python, and Java[cite: 26].</li>
-        <li>Co-led training curriculum overhaul by scripting and editing 10 onboarding videos[cite: 27].</li>
+        [cite_start]<li>Instructed 60+ students in game development using Scratch, Python, and Java[cite: 26].</li>
+        [cite_start]<li>Co-led training curriculum overhaul by scripting and editing 10 onboarding videos[cite: 27].</li>
       </ul>
     </a>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"><img src="/assets/qsc-logo.png"></div>
-    <a href="/experience/qsc" class="timeline-link">
+    <div class="timeline-dot"><img src="/assets/qsc.png"></div>
+    <a href="/experience/qsc/" class="timeline-link">
       <h3 class="timeline-title">Office Assistant</h3>
-      <div class="timeline-subtitle">Quantitative Skills Center [cite: 28, 29]</div>
-      <div class="timeline-date">August 2024 – May 2025 [cite: 30]</div>
+      <div class="timeline-subtitle">Quantitative Skills Center</div>
+      <div class="timeline-date">August 2024 – May 2025</div>
       <ul class="timeline-list">
-        <li>Facilitated 100+ tutoring sessions and paired 50+ students with tutors[cite: 31].</li>
-        <li>Streamlined administrative processes, reducing booking errors by 12%[cite: 32].</li>
+        [cite_start]<li>Facilitated 100+ tutoring sessions and paired 50+ students with tutors[cite: 31].</li>
+        [cite_start]<li>Streamlined administrative processes, reducing booking errors by 12%[cite: 32].</li>
       </ul>
     </a>
   </div>
