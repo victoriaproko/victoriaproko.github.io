@@ -5,7 +5,6 @@ short_description: "Reducing Food Waste through Intelligent Inventory Management
 role: "Product Manager & Lead Developer"
 tools: "Java, JSON, DeepSeek API, JUnit"
 timeline: "Winter 2025 (3-week Sprint)"
-image: /assets/smart-pantry-preview.png
 permalink: /projects/smart-pantry/
 ---
 
