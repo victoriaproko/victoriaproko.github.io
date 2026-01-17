@@ -5,7 +5,6 @@ short_description: "AI-Powered Language Study Assistant Tool."
 role: "Lead Developer"
 tools: "Python, Streamlit, Hugging Face, PyPDF2"
 timeline: "2024"
-image: /assets/aissistant.png
 permalink: /projects/alssistant/
 ---
 
