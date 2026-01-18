@@ -31,7 +31,7 @@ To validate our product direction, we conducted interviews with a diverse cohort
 We prioritized a system architecture that balanced search speed with automated prioritization for a dataset of over 1,000 entries.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/architecture.png" alt="Smart Pantry System Architecture" style="border-radius: 12px; border: 1px solid #eee; width: 100%; max-width: 800px;">
+  <img src="/assets/architecture.jpg" alt="Smart Pantry System Architecture" style="border-radius: 12px; border: 1px solid #eee; width: 100%; max-width: 800px;">
   <p style="font-size: 0.8em; color: #666;">System Architecture: From CSV Data to LLM-powered Recipe Suggestions</p>
 </div>
 
